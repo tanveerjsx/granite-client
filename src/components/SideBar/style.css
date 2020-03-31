@@ -1,0 +1,61 @@
+.drawerStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.drawerStyle h4{
+   margin: 10px;
+}
+.sideBarMainView{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.sideBarproductListContainer{
+    display: flex;
+    flex-direction: row;
+
+}
+.sideBarproductListContainer p{
+margin: 5px;
+}
+.sideBarImageproductList{
+margin: 10px;
+width: 70px;
+height: 50px;
+}
+.sideBarPriceTitle{
+font-weight: bold;
+}
+.sideBarPriceTag{
+    color: #722F2F;
+}
+.drawerBottomStyle{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.drawerBottomStyle h4{
+    margin: 10px;
+ }
+ .sideBarBottomMainComponent{
+     bottom: 0;
+     width: 100%;
+     position: absolute;
+ }
+ .sideBarMiddleList{
+     flex: 1;
+ }
+ .priceColor{
+    color: #722F2F;
+ }
+.drawerBottomButton{
+    padding: 10px;
+}

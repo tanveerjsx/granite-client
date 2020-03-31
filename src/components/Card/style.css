@@ -1,0 +1,20 @@
+.cardHomeWrapper{
+     border: none;
+}
+.imageWrapperCardComponent{
+    width:100%;
+    height:100%;
+}
+.descriptionHome{
+    margin-top: 5px;
+    font-weight: 500;
+    color: #333333;
+}
+.cardHomeWrapper p{
+    text-align: center;
+}
+.descriptionHomePrice
+{
+    color: var(--primary-color);
+
+}

@@ -1,0 +1,77 @@
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px;
+    border-bottom: 1px solid  #E0E0E0;
+    border-right: none;
+    background-color:var(--concrete);
+    height:65px;
+    padding: 0 30px;
+}
+.topHeader > div{
+    padding: 20px 17px 20px 17px;
+    border-right: 1px solid rgb(210, 209, 209);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:var(--text-color-primary);
+}
+.topHeader > div:first-child{
+  border-right: none;
+}
+
+.topHeader a {
+  color: var(--black);
+}
+
+.topHeader a:hover {
+  color: var(--black);
+  text-decoration: none;
+}
+
+#offers{
+    flex:1;
+}
+.offer_message p:first-child{
+    font-size: 25px;
+    color:var(--primary-color);
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
+    text-transform: uppercase;
+}
+.offer_message p:nth-child(2) {
+    color: black;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+}
+.offer_message img{
+    width:30px;
+}
+#offerhours{
+    flex: 0.9;
+}
+.offer_hours{
+    background-color: black;
+    align-items: center;
+    padding-top: 5px;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+.offer_hours p:first-child{
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.offer_hours p:nth-child(2) {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin: 0;
+}

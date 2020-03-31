@@ -1,0 +1,22 @@
+.blogMainComponent h5{
+ padding: 10px;
+}
+.blogMainComponent p{
+ padding: 5px;
+ color: grey;
+}
+.blogButtonlayout{
+    padding-top: 10px;
+   text-align: center;
+}
+.blogButtonlayout h1
+{
+    padding: 10px;
+}
+.blogButtonlayout p{
+    color: grey;
+}
+.blogDescriptionImage{
+    width: 95%;
+    height: 70%;
+}

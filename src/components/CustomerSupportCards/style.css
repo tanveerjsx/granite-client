@@ -1,0 +1,28 @@
+.container{
+    padding: 10px;
+}
+.cardWrapper{
+    border: none;
+}
+.imageWrapperCustomerSupport{
+   width:100%;
+   height:100%;
+}
+.sliderComponent{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 10%;
+}
+.titleCardWrapper{
+    text-align: center;
+    font-size:x-large;
+}
+.subtitleCardWrapper{
+    text-align: center;
+    color: gray;
+}
+.descriptionCardWrapper{
+    text-align: center;
+    color: gray;
+}

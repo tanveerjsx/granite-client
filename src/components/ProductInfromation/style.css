@@ -1,0 +1,41 @@
+.productLayout{
+    background-color: var(--concrete);
+}
+.informationLayout{
+    font-size: 40px;
+   margin-top: 10px;
+   font-weight: bold;
+    text-align: left;
+}
+.informationLayoutWrapper{
+    font-size: 40px;
+    font-family: inherit;   
+}
+.informationLayoutPricing{
+    font-size: 35px;
+}
+.informationLayoutDescription{
+    font-size: 23px;
+    font-weight: bold;
+}
+.buttonlayout{
+    margin: auto;
+    width: 15%;
+    background-color: var(--primary-color);
+    align-items: center;
+}
+.bottomLayout{
+    margin-left: 30%;
+    display: flex;
+   flex-direction: row;
+}
+.bottomTimeWrapper{
+    padding-top: 3.5%;
+    bottom: 0;
+}
+.shopWrapper{
+
+   text-align:center ;
+    color: #fff;
+    background-color: #a22a2a;
+}

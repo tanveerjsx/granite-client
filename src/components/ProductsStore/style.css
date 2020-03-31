@@ -1,0 +1,14 @@
+.ProductsWrapper{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+}
+.headingVendorLayout{
+    text-align: center;
+}
+
+.storeWrapper {
+  box-shadow: 0 5px 5px #dadada;
+  padding: 15px;
+}

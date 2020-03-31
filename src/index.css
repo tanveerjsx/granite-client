@@ -1,0 +1,21 @@
+:root{
+  --primary-color:#a22a2a;
+  --concrete:#F2F2F2;
+  --text-color-primary:#474747;
+  --text-color-secondary:#777;
+  --tamarillo:#981313;
+  --white: #fff;
+  --black: #000;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

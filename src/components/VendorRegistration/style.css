@@ -1,0 +1,49 @@
+.vendorRegistrationMainComponent{
+    background-color: black;
+    margin-bottom: 20px;
+}
+.vendorRegistrationMainComponent h1{
+    text-align: center;
+    color: white;
+   font-size: 80px;
+   padding-top: 30px;
+}
+.linkWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.linkWrapper p{
+    margin: 5px;
+    color: white;
+
+}
+.mainComponent h5{
+padding: 10px;
+}
+.mainComponent p{
+ padding: 10px;
+ color: grey;
+}
+.recentPostContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.recentPostContainer p{
+    margin-left: 10px;
+    padding: 0;
+    color: grey;
+}
+.recentPost{
+width: 100px;
+height:80px;
+}
+.fromContainerWrapper{
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    box-shadow: 0 5px 5px #dadada;
+    border-radius: 7px;
+}

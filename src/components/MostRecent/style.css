@@ -1,0 +1,57 @@
+.my h3{
+    color: #C5EAEA;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 47px;
+
+}
+.my h2{
+    color: #CE0800;
+    text-align: center;
+    font-family: cursive;
+}
+.my p{
+    color: #DFEFF7;
+}
+.headerMost{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.headerMost h2{
+    font-size: 39px;
+    line-height: 47px;
+    font-weight: 400;
+}
+.imageRaper{
+    overflow: hidden;
+}
+
+.mainRecent{
+    background-color: black;
+   
+}
+.img-fluid {
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.img-fluid:hover {
+    transform: scale(1.1);
+  }
+
+element.style {
+    text-align: left;
+    color: white;
+}
+.freebut {
+    border-radius: 35px !important;
+    background-color: #A22A2A !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    width:100% !important;
+    line-height: 20px !important;
+    padding: 14px 28px !important;
+  
+   
+}

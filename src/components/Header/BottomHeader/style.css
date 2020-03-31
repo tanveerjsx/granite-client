@@ -1,0 +1,99 @@
+.bottomHeader {
+    display: flex;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.bottomHeader>div {
+    margin-left: 5%;
+    background-color: var(--tamarillo);
+}
+
+#browseDropdown {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.browseCategory {
+    width: 100%;
+}
+
+.browseCategory .btn-secondary {
+    background-color: var(--tamarillo);
+    border-color: var(--tamarillo);
+}
+
+.browseCategory .btn-secondary:hover {
+    background-color: var(--tamarillo);
+    border-color: var(--tamarillo);
+}
+
+.Menu {
+    display: flex;
+    position: relative;
+}
+
+.MenuItem {
+    list-style: none;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.Dropdown {
+    position: absolute;
+    background: var(--white);
+    display: none;
+    margin-top: 10px;
+    width: 450px;
+    opacity: 0;
+    transition: all 0.4s linear;
+    box-shadow: 0 0 4px -1px grey;
+    padding: 20px 10px;
+}
+
+.Dropdown>li {
+    float: left;
+    width: 25%;
+}
+
+.browseCategory .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle{
+  color: var(--white) !important;
+  background-color: var(--tamarillo) !important;
+  border-color: var(--tamarillo) !important;
+  border:none !important;
+}
+
+.browseCategory .btn-secondary.focus, .btn-secondary:focus {
+  color: var(--white) !important;
+  background-color: var(--tamarillo) !important;
+  border-color: var(--tamarillo) !important;
+  box-shadow: none !important;
+}
+
+.browseCategory .btn-secondary.focus, .btn-secondary:focus{
+  box-shadow: none !important;
+}
+
+.Menu .MenuItem>a {
+    color: white;
+    text-decoration: none;
+}
+
+.MenuItem:hover>.Dropdown {
+    display: block;
+    opacity: 1;
+}
+
+.Dropdown>li>ul>li {
+    margin: 5px 0;
+}
+
+.Dropdown>li>ul>li>a {
+    color: #666;
+}
+
+.Dropdown>li>ul>li>a:hover {
+    text-decoration-line: underline;
+}
